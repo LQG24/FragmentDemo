@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\ascode\\FragmentDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment2.xml",
+        "source": "E:\\ascode\\FragmentDemo\\app\\src\\main\\res\\layout\\fragment2.xml"
+    },
+    {
+        "merged": "E:\\ascode\\FragmentDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\ascode\\FragmentDemo\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\ascode\\FragmentDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment1.xml",
+        "source": "E:\\ascode\\FragmentDemo\\app\\src\\main\\res\\layout\\fragment1.xml"
+    }
+]
