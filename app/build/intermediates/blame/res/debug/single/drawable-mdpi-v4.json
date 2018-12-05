@@ -2,5 +2,9 @@
     {
         "merged": "E:\\ascode\\FragmentDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
         "source": "E:\\ascode\\FragmentDemo\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\2017 Android demo\\FragmentDemo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "F:\\2017 Android demo\\FragmentDemo\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     }
 ]

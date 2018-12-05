@@ -6,11 +6,13 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
+import android.view.View;
 import android.widget.TextView;
 
 import com.example.fragment.Fragment1;
 import com.example.fragment.Fragment1.OnButtonClickListener;
 import com.example.fragment.Fragment2;
+import com.example.fragment.Fragment3;
 
 @SuppressLint("Recycle")
 public class MainActivity extends FragmentActivity implements
@@ -19,6 +21,7 @@ public class MainActivity extends FragmentActivity implements
 	private static final String TAG = "FragmentDemo";
 	private Fragment1 fragment1;
 	private Fragment2 fragment2;
+	private Fragment3 fragment3;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -26,25 +29,32 @@ public class MainActivity extends FragmentActivity implements
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		fragment1 = new Fragment1();
-		fragment2 = new Fragment2();
+		Bundle args = new Bundle();
+		args.putString("hello", "Hello Fragment1");
+		fragment1.setArguments(args);
+
 		addFragment1();
 		addFragment2();
 	}
 
+	public void onClick(View view){
+		addFragment3();
+	}
+
+	public void onClickItem1(View view){
+		addFragment1();
+	}
+
 	private void addFragment1() {
-		Bundle args = new Bundle();
-		args.putString("hello", "Hello Fragment1");
-		fragment1.setArguments(args);
-		Log.i(TAG, "create Fragment1");
 		FragmentTransaction transaction = getSupportFragmentManager()
 				.beginTransaction();
 		transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
 		transaction.add(R.id.one, fragment1);
-		transaction.addToBackStack(null);
 		transaction.commit();
 	}
 
 	private void addFragment2() {
+		fragment2 = new Fragment2();
 		Bundle args = new Bundle();
 		args.putString("hello", "Hello Fragment2");
 		fragment2.setArguments(args);
@@ -53,7 +63,23 @@ public class MainActivity extends FragmentActivity implements
 				.beginTransaction();
 		transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
 		transaction.replace(R.id.two, fragment2);
-		transaction.addToBackStack(null);
+		transaction.commit();
+	}
+
+
+	private void addFragment3() {
+		fragment3 = new Fragment3();
+		Bundle args = new Bundle();
+		args.putString("hello", "Hello Fragment3");
+		fragment3.setArguments(args);
+		Log.i(TAG, "create Fragment3");
+		FragmentTransaction transaction = getSupportFragmentManager()
+				.beginTransaction();
+		transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
+		if(fragment1 != null){
+			transaction.remove(fragment1);
+		}
+		transaction.add(R.id.one, fragment3);
 		transaction.commit();
 	}
 

@@ -4,6 +4,19 @@
     android:baselineAligned="false"
     android:orientation="vertical" >
 
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="点击"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="切换item1"
+        android:onClick="onClickItem1"
+        />
     <LinearLayout
         android:id="@+id/main"
         android:layout_width="match_parent"

@@ -1,14 +1,30 @@
 [
     {
-        "merged": "E:\\ascode\\FragmentDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment2.xml",
-        "source": "E:\\ascode\\FragmentDemo\\app\\src\\main\\res\\layout\\fragment2.xml"
+        "merged": "F:\\2017 Android demo\\FragmentDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment3.xml",
+        "source": "F:\\2017 Android demo\\FragmentDemo\\app\\src\\main\\res\\layout\\fragment3.xml"
+    },
+    {
+        "merged": "F:\\2017 Android demo\\FragmentDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\2017 Android demo\\FragmentDemo\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\ascode\\FragmentDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment1.xml",
+        "source": "E:\\ascode\\FragmentDemo\\app\\src\\main\\res\\layout\\fragment1.xml"
     },
     {
         "merged": "E:\\ascode\\FragmentDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "E:\\ascode\\FragmentDemo\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "E:\\ascode\\FragmentDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment1.xml",
-        "source": "E:\\ascode\\FragmentDemo\\app\\src\\main\\res\\layout\\fragment1.xml"
+        "merged": "F:\\2017 Android demo\\FragmentDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment1.xml",
+        "source": "F:\\2017 Android demo\\FragmentDemo\\app\\src\\main\\res\\layout\\fragment1.xml"
+    },
+    {
+        "merged": "E:\\ascode\\FragmentDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment2.xml",
+        "source": "E:\\ascode\\FragmentDemo\\app\\src\\main\\res\\layout\\fragment2.xml"
+    },
+    {
+        "merged": "F:\\2017 Android demo\\FragmentDemo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment2.xml",
+        "source": "F:\\2017 Android demo\\FragmentDemo\\app\\src\\main\\res\\layout\\fragment2.xml"
     }
 ]
